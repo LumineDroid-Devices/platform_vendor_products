@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2026 LumineDroid
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <!-- devices -->
+  <project path="device/advan/X1" name="android_device_advan_X1" remote="lumine-devices"/>
+  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="lumine-devices"/>
+  <project path="device/mediatek/sepolicy_vndr" name="platform_device_mediatek_sepolicy_vndr" remote="lumine"/>
+
+  <!-- hardware -->
+  <project path="hardware/mediatek" name="platform_hardware_mediatek" remote="lumine"/>
+
+  <!-- vendor -->
+  <project path="vendor/advan/X1" name="proprietary_vendor_advan_X1" remote="lumine-devices"/>
+  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="lumine-devices"/>
+
+</manifest>
