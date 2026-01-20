@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2026 LumineDroid
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <!-- devices -->
+  <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="lumine-devices"/>
+  <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="lumine-devices"/>
+
+  <!-- hardware -->
+  <project path="hardware/xiaomi" name="platform_hardware_xiaomi" remote="lumine"/>
+
+  <!-- vendor -->
+  <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="lumine-devices"/>
+
+</manifest>
