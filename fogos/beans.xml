@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2026 LumineDroid
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <!-- devices -->
+  <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="lumine-devices"/>
+  <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="lumine-devices"/>
+
+  <!-- hardware -->
+  <project path="hardware/motorola" name="platform_hardware_motorola" remote="lumine"/>
+
+  <!-- hardware -->
+  <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="lumine-devices"/>
+
+  <!-- vendor -->
+  <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="lumine-devices"/>
+  <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="lumine-devices"/>
+
+</manifest>
