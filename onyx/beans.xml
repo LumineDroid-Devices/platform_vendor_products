@@ -10,9 +10,9 @@
   <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="lumine-devices"/>
 
   <!-- hardware -->
-  <project path="hardware/xiaomi" name="platform_hardware_xiaomi" remote="lumine"/>
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lineage"/>
 
   <!-- vendor -->
-  <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="lumine-devices"/>
+  <project path="vendor/xiaomi/onyx" name="heybyben/proprietary_vendor_xiaomi_onyx" remote="gitlab" revision="bellflower"/>
 
 </manifest>
