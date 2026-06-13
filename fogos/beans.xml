@@ -9,14 +9,17 @@
   <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="lumine-devices"/>
 
   <!-- dolby -->
-  <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github"/>
+  <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github" revision="sixteen-qpr2"/>
 
   <!-- hardware -->
-  <project path="hardware/motorola" name="android_hardware_motorola" remote="lineage"/>
-  <project path="hardware/samsung/slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="lineage"/>
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="lineage" revision="lineage-23.2"/>
+  <project path="hardware/samsung/slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="lineage" revision="lineage-23.2"/>
 
   <!-- kernel -->
   <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="lumine-devices"/>
+
+  <!-- motocamera -->
+  <project path="vendor/motorola/motocamera" name="vendor_motorola_motocamera" remote="lumine-devices"/>
 
   <!-- vendor -->
   <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="lumine-devices"/>
