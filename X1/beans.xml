@@ -6,15 +6,13 @@
 <manifest>
 
   <!-- devices -->
-  <project path="device/advan/X1" name="android_device_advan_X1" remote="lumine-devices"/>
-  <project path="device/advan/X1-kernel" name="android_device_advan_X1-kernel" remote="lumine-devices"/>
+  <project path="device/advan/X1" name="Six-Labs/android_device_advan_X1" remote="github" revision="camellia" />
+  <project path="device/advan/X1-kernel" name="Six-Labs/android_device_advan_X1-kernel" remote="github" revision="camellia" />
   <project path="device/mediatek/sepolicy_vndr" name="platform_device_mediatek_sepolicy_vndr" remote="lumine"/>
 
   <!-- hardware -->
-  <project path="hardware/mediatek" name="platform_hardware_mediatek" remote="lumine"/>
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-23.2" />
 
   <!-- vendor -->
-  <project path="vendor/advan/X1" name="proprietary_vendor_advan_X1" remote="lumine-devices"/>
-  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="lumine-devices"/>
-
+  <project path="vendor/advan/X1" name="Six-Labs/proprietary_vendor_advan_X1" remote="github" revision="camellia" />
 </manifest>
